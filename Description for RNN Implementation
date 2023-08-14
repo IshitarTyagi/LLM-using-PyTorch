@@ -1,0 +1,8 @@
+#RNN implementation
+  Recurrent Neural Networks (RNNs) are a class of neural networks specially designed for handling sequences of data. Unlike traditional feedforward neural networks that process data in isolation, RNNs have a hidden state that allows them to maintain memory of previous steps, making them adept at sequential tasks.
+Imagine a scenario where you're analyzing text, and the meaning of a word heavily depends on the words that came before it. RNNs excel in capturing these dependencies by passing information through time. This makes them incredibly powerful for tasks like language modeling, machine translation, speech recognition, and more.
+RNNs are built to handle sequences of varying lengths, thanks to their dynamic unfolding over time. They can process inputs of different lengths and produce outputs accordingly. This adaptability makes them suitable for a wide range of real-world applications.
+
+At the heart of this repository is the VanillaRNN class, a building block for Recurrent Neural Networks. RNNs are specialized neural networks designed to handle sequences of data, making them ideal for time-series, natural language processing, and other sequential tasks.
+
+The VanillaRNN class we implement here showcases the core principles of RNNs. It maintains a simple structure with just a few layers, allowing us to focus on the essentials. We'll see how the network processes sequential data by maintaining a hidden state that gets updated with each input step. This hidden state captures information from previous steps, enabling the network to learn from context.
